@@ -6,7 +6,7 @@ import Logo from './Logo';
 function Header () {
 
     return(
-        <header className="wrapper">
+        <header className="">
             <nav className="navbar">
                 <div className="brand"> 
                     <div className="logo"> 

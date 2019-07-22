@@ -1,7 +1,6 @@
 header{
     width: 100%;
     font-family: 'Raleway';
-    border-bottom: 0.5px solid grey;
 }
 .navbar{
     margin: 20px 10px 10px 10px;
@@ -57,8 +56,8 @@ header{
 .item{
     margin: 0 30px 0 30px;
     list-style: none;
-    font-weight: bold
-    /* display: inline */
+    font-weight: bold;
+    letter-spacing: 1px
 }
 .profile-menu{
     display: flex;

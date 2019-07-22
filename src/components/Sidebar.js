@@ -10,20 +10,25 @@ function Sidebar (){
             </div>
             <div className="second-section">
                 <span className="project">Project</span>
-                <span className="project-items">
-                  <div className="project-icons"></div> <div className="project-name"> Arena Sport </div>  
-                </span>
                 <div className="project-items">
-                    <div  className="project-icons"></div> <div className="project-name"> DSV </div> 
+                    <div className="project-icons"></div> 
+                    <div className="project-name"> Arena Sport </div>  
                 </div>
                 <div className="project-items">
-                    <div  className="project-icons"></div> <div className="project-name">Seafood Mall</div>  
+                    <div  className="project-icons"></div> 
+                    <div className="project-name"> DSV </div> 
                 </div>
                 <div className="project-items">
-                    <div className="project-icons"></div>  <div className="project-name"> FireStar </div>
+                    <div  className="project-icons"></div> 
+                    <div className="project-name">Seafood Mall</div>  
                 </div>
                 <div className="project-items">
-                    <div className="project-icons"></div> <div className="project-name"> Zeta Bank </div>  
+                    <div className="project-icons"></div>  
+                    <div className="project-name"> FireStar </div>
+                </div>
+                <div className="project-items">
+                    <div className="project-icons"></div> 
+                    <div className="project-name"> Zeta Bank </div>  
                 </div>
             </div>
             <div className="third-section">

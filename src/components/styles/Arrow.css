@@ -1,0 +1,25 @@
+.arrow{
+    padding-left: 10px;
+    animation: bounce 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.arrow-head{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right:  4px solid transparent;
+    border-bottom: 4px solid black;
+
+}
+.arrow-body{
+    height: 10px;
+    width: 2px;
+    background-color: black;
+    margin-left: 3px
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 10px, 0); }
+}

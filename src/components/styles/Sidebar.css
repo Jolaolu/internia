@@ -1,7 +1,12 @@
-aside{
+.wrapper{
+    width: 35%;
+    margin: 40px 0 0 40px;
+    padding-left: 50px;
+    padding-top: 30px;
     margin-top: 30px;
     background: #fff;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+    border-radius: 15px
 }
 .first-section{
     display: flex;
