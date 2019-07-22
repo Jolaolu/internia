@@ -1,0 +1,82 @@
+header{
+    width: 100%;
+    font-family: 'Raleway';
+    border-bottom: 0.5px solid grey;
+}
+.navbar{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row
+}
+.logo{
+    display: flex
+}
+.logo-small{
+    height: 10px;
+    width: 10px;
+    background-color: #F6868D;
+    border-radius: 100%;
+    position: relative;
+    left: 40px;
+}
+
+.logo-red{
+    width: 50px;
+    height: 50px;
+    background-color: #F6868D;
+    border-radius: 100%;
+}
+.logo-white{
+    margin: 0 auto;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    position: relative;
+    top: 12.5px
+}
+.name{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    padding-top: 15px
+}
+.nav-menu{
+    display: flex;
+    
+ 
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px
+}
+.item{
+    margin: 0 30px 0 30px;
+    list-style: none;
+    font-weight: bold
+    /* display: inline */
+}
+.profile-menu{
+    display: flex;
+    margin-right: 20px
+}
+
+.icons{
+    /* margin-right: 20px */
+}
+.icon{
+    height: 25px;
+    padding:17px 20px 0 0;
+}
+.profile-image{
+    background: url('../../assets/neo-profile.jpg');
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top:10px
+    
+}
