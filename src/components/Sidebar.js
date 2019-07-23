@@ -40,6 +40,9 @@ function Sidebar (){
                     <div className="project-icons"></div> <div className="project-name"> Part time </div>  
                 </div>
             </div>
+            <div className="add-project">
+                add project
+            </div>
         </aside>
     )
 }

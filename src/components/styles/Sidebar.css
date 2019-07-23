@@ -39,3 +39,17 @@
 .third-section{
     margin-top: 20px
 }
+.add-project{
+    display: flex;
+    width: 180px;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #876DE0;
+    border: 1px solid #876DE0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    letter-spacing: 1.5px
+}

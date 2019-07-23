@@ -1,12 +1,12 @@
 import React from 'react'
 import './styles/Arrow.css';
-function Arrow(){
+function DownArrow(){
     return(
         <div className="arrow">
-              <div className="arrow-head"></div>
               <div className="arrow-body"></div>
+              <div className="down-arrow-head"></div>
         </div>
       
     )
 }
-export default Arrow;
+export default DownArrow;
