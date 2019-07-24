@@ -14,11 +14,9 @@ class Employee extends React.Component{
         }
     }
     componentWillMount(){
-        axios.get(`https://api.github.com/users/`)
-        .then(response => this.setstate({
-            avatar: response.data.avatar_url,
-            name: response.data.name,
-            username: response.data.login,
+        axios.get(`https://api.github.com/users?since=135&per_page=8`)
+        .then(response => this.setState({
+            userData : response.data
         }))
         .catch(err=> {console.log(err)});
     }
@@ -30,10 +28,10 @@ class Employee extends React.Component{
                     <div className="box box-content"> </div>
                     <div className="user-profile"> 
                         <div className="user-profile-picture">
-                            <img src={} alt="" srcset="" className="profile-picture"/> 
+                            <img src={user.avatar_url} alt="" srcSet="" className="profile-picture"/> 
                         </div> 
                         <div className="user-profile-detail"> 
-                            <span className="user-name"> Ronny Asmo </span>
+                            <span className="user-name">{user.login} </span>
                             <span className="user-title">Software Engineer</span>
                         </div>  
                     </div>    
