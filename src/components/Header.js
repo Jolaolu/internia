@@ -19,11 +19,11 @@ function Header () {
                 </div>     
                 <div className="nav-menu">
                     <ul className="menu-item">
-                        <li className="item">Calendar</li>
-                        <li className="item">Statistics</li>
-                        <li className="item">Employee</li>
-                        <li className="item">Client</li>
-                        <li className="item">Equipment</li>
+                        <li className="item"> <a href="#1">Calendar</a> </li>
+                        <li className="item"> <a href="#1">Statistics</a> </li>
+                        <li className="item item-black"> <a href="#1" className="item-black"> Employee</a></li>
+                        <li className="item"> <a href="#1"> Client</a></li>
+                        <li className="item"> <a href="#1">Equipment</a> </li>
                     </ul>
                 </div>
                 <div className="profile-menu">
