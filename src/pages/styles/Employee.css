@@ -27,10 +27,15 @@ section{
     width: 100%;
     margin:35px 40px 0 5px;
 }
+.content-menu-wrapper{
+    width: 100%;
+    margin:20px 40px 0 23px;
+}
+
 .content-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 10% 30% 20% 20% 20% ;
     font-weight: bold;
     font-size: 12px;
 }
@@ -40,33 +45,45 @@ section{
     border-radius: 7px;
     background-color: #fff;
     border: 1px solid grey;
-    margin-right: 40px
+    margin: 0 auto
 }
 .employee-tag{
     display: flex;
     flex-direction: row;
-    margin-left: 5px
+    margin: 0 auto;
 }
 .main-content{
     width: 100%;
     margin:20px 40px 0 23px;
 } 
 .content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 5% 35% 20% 20% 20%;
     height: 80px;
     background-color: #fff;
-    margin: 10px 50px 10px 0;
+    margin: 10px;
     border-radius: 10px;
     align-items: center
+}
+.content:hover {
+    transform: scale(1.03);
+}
+.box-content{
+    margin-left: 24px
 }
 .user-profile{
     display: flex;
     padding-right: 40px
 }
 .user-profile-picture{
-    margin-right: 20px
+    margin:0 20px 0 30px
+}
+.user-profile-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 .profile-picture{
     height: 50px;
@@ -82,7 +99,10 @@ section{
     font-size: 12px;
 }
 .user-salary{
-    padding-right: 20px
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 .salary{
     display: block;
@@ -92,7 +112,12 @@ section{
 .salary-position{
     font-size: 12px;
 }
-
+.user-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
 .status{
     display: block;
     font-size: 15px;
@@ -103,13 +128,11 @@ section{
 .user-edit{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 
 }
-.edit-user{
-    height: 20px;
-    margin-right: 5px
-    
-}
+
 .edit{
     padding: 10px 0 10px 0
 }
@@ -122,7 +145,10 @@ section{
 .delete{
     padding: 10px 0 10px 0
 }
-.delete-user{
+svg{
     height: 20px;
-    margin-left: 5px
+    margin-left: 5px;
+}
+svg:hover{
+    fill: red
 }
