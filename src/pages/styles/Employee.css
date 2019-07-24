@@ -60,7 +60,7 @@ section{
     width: 95%;
     display: grid;
     grid-template-columns: 5% 35% 20% 20% 20%;
-    height: 80px;
+    height: 70px;
     background-color: #fff;
     margin: 10px;
     border-radius: 10px;
