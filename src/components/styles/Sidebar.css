@@ -24,8 +24,12 @@
 
 }
 .project-items{
-    margin: 30px 0 0 0;
-    display: flex
+    margin-right: 50px;
+    display: flex;
+    padding: 15px;
+}
+.project-items:hover, :active{
+    background: #EEEEEE;
 }
 .project-icons{
     height: 30px;
